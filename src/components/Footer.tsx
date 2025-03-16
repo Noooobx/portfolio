@@ -3,7 +3,7 @@ import { socials } from "@/config/socials";
 
 export default function Footer() {
   return (
-    <footer className="w-full py-6 bg-gradient-to-r from-gray-900 via-gray-800 to-gray-900 text-white text-center mt-10 shadow-lg">
+    <footer className="w-full py-6 bg-gradient-to-t from-black via-gray-900 to-gray-800 text-white text-center mt-10 shadow-lg">
       <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-center justify-between px-6">
         {/* Copyright Text */}
         <p className="text-sm text-gray-300">

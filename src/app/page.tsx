@@ -8,7 +8,7 @@ import { socials } from "@/config/socials"; // Import social links
 
 export default function Home() {
   return (
-    <div className="flex flex-col min-h-screen bg-gradient-to-br from-gray-900 to-black text-white">
+    <div className="flex flex-col min-h-screen bg-black text-white">
       <Navbar />
 
       {/* Main Content Wrapper */}

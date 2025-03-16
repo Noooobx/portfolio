@@ -40,7 +40,7 @@ export default function Navbar() {
       {/* Sidebar and Overlay (Mobile) */}
       {isOpen && (
         <div
-          className="fixed inset-0 bg-black/50 backdrop-blur-sm z-50 flex"
+          className="fixed inset-0 bg-black backdrop-blur-sm z-50 flex"
           onClick={() => setIsOpen(false)}
         >
           <motion.div
